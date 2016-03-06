@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">YonSharePosition</string>
+    <string name="share_open">点击左侧按钮--开启位置共享</string>
+    <string name="share_close">点击左侧按钮--关闭位置共享</string>
+    <string name="action_settings">设置头像</string>
+    <string name="server_error">服务端网络定位失败，可以反馈IMEI号和大体定位时间到loc-bugs@baidu.com，会有人追查原因</string>
+    <string name="newwork_exception">网络不同导致定位失败，请检查网络是否通畅</string>
+    <string name="criteria_exception">无法获取有效定位依据导致定位失败，一般是由于手机的原因，处于飞行模式下一般会造成这种结果，可以试着重启手机</string>
+</resources>

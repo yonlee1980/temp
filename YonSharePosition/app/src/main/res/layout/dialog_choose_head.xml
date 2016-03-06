@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:drawableLeft="@drawable/touxiang_ops"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="默认头像"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:gravity="center_vertical"
+        android:scaleType="center"
+        android:background="#FFFFBB33"
+        android:contentDescription="@string/app_name" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivCamera"
+            android:src="#00000000"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tvCamera"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="拍照获取" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/ivLocal"
+            android:src="#00000000"
+            android:layout_width="64dp"
+            android:layout_height="64dp" />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tvLocal"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="本地查找"/>
+    </LinearLayout>
+
+</LinearLayout>
